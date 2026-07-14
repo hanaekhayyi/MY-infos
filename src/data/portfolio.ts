@@ -11,10 +11,10 @@ export const profile = {
   title: 'Ingénieure Data & Intelligence Artificielle',
   shortTitle: 'Data & AI Engineer',
   tagline:
-    "Je conçois et déploie des systèmes IA en production : architectures multi-agents, pipelines RAG et infrastructures Big Data temps réel.",
+    "Ingénieure d'État en Ingénierie des Données & Intelligence Artificielle, orientée Data Science, Machine Learning et NLP. Je transforme des données complexes en solutions prédictives et décisionnelles, de la préparation des données au déploiement de pipelines IA, RAG et agents métier.",
   availability: 'Disponible pour un CDI à partir d\'août 2026',
-  location: 'Al Hoceïma, Maroc',
-  openTo: 'Rabat · Casablanca · à distance',
+  location: 'Casablanca',
+  openTo: 'Rabat',
   email: 'hanaekhayyi7@gmail.com',
   phone: '+212 6 56 98 58 45',
   phoneHref: 'tel:+212656985845',
