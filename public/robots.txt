@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hanaekhayyi.github.io/portfolio/sitemap.xml
+Sitemap: https://hanaekhayyi.github.io/MY-infos/sitemap.xml
