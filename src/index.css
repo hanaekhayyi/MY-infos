@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #03050a;
+  --surface: #080d16;
+  --surface-2: #0d1520;
+  --border: rgba(99, 179, 237, 0.12);
+  --text: #e8f4fd;
+  --text-2: #8ab4cc;
+  --text-3: #4a7a99;
+}
+
+.light {
+  --bg: #f6f9fc;
+  --surface: #ffffff;
+  --surface-2: #eef3f8;
+  --border: rgba(20, 60, 90, 0.1);
+  --text: #0b1520;
+  --text-2: #3b5568;
+  --text-3: #6c8598;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+  background: rgba(99, 179, 237, 0.3);
+  color: #fff;
+}
+
+/* Visible focus ring for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #63b3ed;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@layer utilities {
+  .bg-surface {
+    background-color: var(--surface);
+  }
+  .bg-surface-2 {
+    background-color: var(--surface-2);
+  }
+  .border-token {
+    border-color: var(--border);
+  }
+  .text-primary {
+    color: var(--text);
+  }
+  .text-secondary {
+    color: var(--text-2);
+  }
+  .text-tertiary {
+    color: var(--text-3);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hanaekhayyi.github.io/portfolio/sitemap.xml

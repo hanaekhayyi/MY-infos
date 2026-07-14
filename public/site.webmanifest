@@ -1,0 +1,14 @@
+{
+  "name": "Hanae Khayyi — Data & AI Engineer",
+  "short_name": "Hanae Khayyi",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#03050a",
+  "background_color": "#03050a",
+  "display": "standalone"
+}
