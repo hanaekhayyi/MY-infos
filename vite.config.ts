@@ -10,7 +10,7 @@ import react from '@vitejs/plugin-react';
 // If you deploy to a user/organization page, e.g. https://<username>.github.io/
 // (repo named exactly "<username>.github.io"), set base to '/'.
 // ---------------------------------------------------------------------------
-const REPO_NAME = 'portfolio'; // <-- change this to your repository name
+const REPO_NAME = 'MY-infos'; // <-- change this to your repository name
 const IS_USER_SITE = false; // <-- set to true if your repo is "<username>.github.io"
 
 export default defineConfig({
