@@ -18,12 +18,12 @@ export const profile = {
   email: 'hanaekhayyi7@gmail.com',
   phone: '+212 6 56 98 58 45',
   phoneHref: 'tel:+212656985845',
-  linkedin: 'https://www.linkedin.com/in/hanae-khayyi/',
+  linkedin: 'https://www.linkedin.com/in/hanae-khayyi-a76241241/',
   github: 'https://github.com/hanaekhayyi',
   // Add your CV file to /public/cv/hanae-khayyi-cv.pdf to enable the download button.
   cvPath: `${import.meta.env.BASE_URL}cv/hanae-khayyi-cv.pdf`,
   about: [
-    "Étudiante en 5ᵉ année à l'École Nationale des Sciences Appliquées d'Al Hoceïma, je me spécialise en ingénierie des données et intelligence artificielle. Mon parcours couvre l'ensemble du cycle de vie de la donnée : collecte, ingestion, modélisation avancée et visualisation décisionnelle.",
+    "Ingénieure d'État diplômée de l'École Nationale des Sciences Appliquées d'Al Hoceïma, spécialisée en ingénierie des données et intelligence artificielle. Mon parcours couvre l'ensemble du cycle de vie de la donnée : collecte, préparation, modélisation avancée et visualisation décisionnelle.",
     "Ce qui me définit : une curiosité forte pour la science des données — comprendre non seulement comment construire des modèles, mais pourquoi ils fonctionnent, et comment les rendre utiles à l'échelle réelle. J'ai travaillé sur des architectures RAG, des systèmes de recommandation, des pipelines Big Data temps réel et des outils de veille augmentés par LLMs.",
   ],
   seekingTypes: ['CDI', 'Stage de fin d\'études', 'Collaboration recherche'],
