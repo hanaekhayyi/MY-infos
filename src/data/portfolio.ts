@@ -45,7 +45,7 @@ export type Language = {
 
 export const languages: Language[] = [
   { name: 'Arabe', level: 'Langue maternelle', badge: 'Natif', badgeVariant: 'native' },
-  { name: 'Français', level: 'Courant · scolarité en option française', badge: 'C1', badgeVariant: 'advanced' },
+  { name: 'Français', level: 'Avancé · scolarité en option française', badge: 'C1', badgeVariant: 'advanced' },
   { name: 'Anglais', level: 'Technique et professionnel', badge: 'B2', badgeVariant: 'intermediate' },
 ];
 
@@ -293,6 +293,7 @@ export const education: EducationItem[] = [
     period: '2021 – 2026',
     degree: "Diplôme d'Ingénieure d'État · Ingénierie des Données & Intelligence Artificielle",
     school: "École Nationale des Sciences Appliquées d'Al Hoceïma (ENSAH), Maroc",
+    mention: 'Mention Très Bien',
   },
   {
     id: 'bac',
